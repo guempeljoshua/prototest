@@ -1,0 +1,23 @@
+# Build artifacts
+cpp/build/
+csharp/ScgProtoTest/bin/
+csharp/ScgProtoTest/obj/
+csharp/ScgProtoTest/publish/
+
+# Output JSON files
+*.json
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# VS / Rider
+.vs/
+.idea/
+*.user
+*.suo
+
+# macOS
+.DS_Store
