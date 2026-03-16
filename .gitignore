@@ -3,3 +3,17 @@ csharp/bin/
 csharp/obj/
 
 *.json
+
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# VS / Rider
+.vs/
+.idea/
+*.user
+*.suo
+
+# macOS
+.DS_Store
