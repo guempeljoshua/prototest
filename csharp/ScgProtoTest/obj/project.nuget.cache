@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yieG4XxCnfA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\csharp\\ScgProtoTest\\ScgProtoTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joshg\\.nuget\\packages\\google.protobuf\\3.25.3\\google.protobuf.3.25.3.nupkg.sha512"
+  ],
+  "logs": []
+}
