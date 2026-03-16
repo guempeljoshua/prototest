@@ -2,13 +2,13 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\joshg\OneDrive\Desktop\scg-protobuf-test\scg-protobuf-test\cpp\build\x64\Release\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\joshg\OneDrive\Desktop\prototest2\prototest\cpp\build\x64\Release\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\joshg\OneDrive\Desktop\scg-protobuf-test\scg-protobuf-test\cpp\build\Release\scg_proto_reader.exe</FullPath>
+      <FullPath>C:\Users\joshg\OneDrive\Desktop\prototest2\prototest\cpp\build\Release\scg_proto_reader.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\joshg\OneDrive\Desktop\scg-protobuf-test\scg-protobuf-test\cpp\build\x64\Release\ALL_BUILD</FullPath>
+      <FullPath>C:\Users\joshg\OneDrive\Desktop\prototest2\prototest\cpp\build\x64\Release\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

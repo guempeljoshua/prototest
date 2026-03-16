@@ -1,13 +1,7 @@
-#To run the C++ version:
+#To run the C++ version in powershell:
 
-cd cpp
-
-cmake -B build ^
-  -DCMAKE_TOOLCHAIN_FILE=C:/vcpkg/scripts/buildsystems/vcpkg.cmake ^
-  -DVCPKG_TARGET_TRIPLET=x64-windows ^
-  -A x64
-
-cmake --build build --config Release
+.\run.ps1
+.\run.ps1
 
 .\build\Release\scg_proto_reader.exe
 <absolute path to repo>\binary\scg_test.pb

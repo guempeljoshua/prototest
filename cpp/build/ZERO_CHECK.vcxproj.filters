@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\joshg\OneDrive\Desktop\scg-protobuf-test\scg-protobuf-test\cpp\build\CMakeFiles\7fa7c44f7c0e7eb5d0b840f8eba0d981\generate.stamp.rule">
+    <CustomBuild Include="C:\Users\joshg\OneDrive\Desktop\prototest2\prototest\cpp\build\CMakeFiles\215ceb48c83ac2b85410e535cc7e7b1e\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{CED5969E-44B0-3963-BE8A-CC2BE1C8D655}</UniqueIdentifier>
+      <UniqueIdentifier>{ECB47F6B-81AD-373F-9059-9F3821B178C0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

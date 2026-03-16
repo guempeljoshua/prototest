@@ -1,6 +1,6 @@
-^C:\USERS\JOSHG\ONEDRIVE\DESKTOP\SCG-PROTOBUF-TEST\SCG-PROTOBUF-TEST\CPP\CMAKELISTS.TXT
+^C:\USERS\JOSHG\ONEDRIVE\DESKTOP\PROTOTEST2\PROTOTEST\CPP\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/joshg/OneDrive/Desktop/scg-protobuf-test/scg-protobuf-test/cpp -BC:/Users/joshg/OneDrive/Desktop/scg-protobuf-test/scg-protobuf-test/cpp/build --check-stamp-file C:/Users/joshg/OneDrive/Desktop/scg-protobuf-test/scg-protobuf-test/cpp/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/joshg/OneDrive/Desktop/prototest2/prototest/cpp -BC:/Users/joshg/OneDrive/Desktop/prototest2/prototest/cpp/build --check-stamp-file C:/Users/joshg/OneDrive/Desktop/prototest2/prototest/cpp/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

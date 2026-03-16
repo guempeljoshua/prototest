@@ -95,10 +95,10 @@ C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC-CXX.cmake
 C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows.cmake
 C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/WindowsPaths.cmake
-C:/Users/joshg/OneDrive/Desktop/scg-protobuf-test/scg-protobuf-test/cpp/CMakeLists.txt
-C:/Users/joshg/OneDrive/Desktop/scg-protobuf-test/scg-protobuf-test/cpp/build/CMakeFiles/4.2.3/CMakeCXXCompiler.cmake
-C:/Users/joshg/OneDrive/Desktop/scg-protobuf-test/scg-protobuf-test/cpp/build/CMakeFiles/4.2.3/CMakeRCCompiler.cmake
-C:/Users/joshg/OneDrive/Desktop/scg-protobuf-test/scg-protobuf-test/cpp/build/CMakeFiles/4.2.3/CMakeSystem.cmake
+C:/Users/joshg/OneDrive/Desktop/prototest2/prototest/cpp/CMakeLists.txt
+C:/Users/joshg/OneDrive/Desktop/prototest2/prototest/cpp/build/CMakeFiles/4.2.3/CMakeCXXCompiler.cmake
+C:/Users/joshg/OneDrive/Desktop/prototest2/prototest/cpp/build/CMakeFiles/4.2.3/CMakeRCCompiler.cmake
+C:/Users/joshg/OneDrive/Desktop/prototest2/prototest/cpp/build/CMakeFiles/4.2.3/CMakeSystem.cmake
 C:/vcpkg/installed/x64-windows/share/absl/abslConfig.cmake
 C:/vcpkg/installed/x64-windows/share/absl/abslConfigVersion.cmake
 C:/vcpkg/installed/x64-windows/share/absl/abslTargets-debug.cmake

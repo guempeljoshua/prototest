@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ScgProtoTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4aab58957a707f05d257038e7ead99aa0eea929e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b29bcbf347fee49ac273f6bb4b1250f99b87a2b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ScgProtoTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ScgProtoTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -53,6 +53,7 @@ events:
         - "C:\\Users\\joshg\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\joshg\\AppData\\Local\\Muse Hub\\lib"
         - "C:\\Users\\joshg\\.dotnet\\tools"
+        - "C:\\Users\\joshg\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
       CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-windows/debug;C:/vcpkg/installed/x64-windows"
   -
     kind: "message-v1"
@@ -70,9 +71,9 @@ events:
       The output was:
       0
       MSBuild version 18.4.0+6e61e96ac for .NET Framework
-      Build started 3/16/2026 12:36:43 AM.
+      Build started 3/16/2026 12:45:52 PM.
       
-      Project "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      Project "C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -88,13 +89,13 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.exe
       AppLocalFromInstalled:
-        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
         'pwsh.exe' is not recognized as an internal or external command,
         operable program or batch file.
-        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
-        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -102,13 +103,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.44
+      Time Elapsed 00:00:00.71
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -116,7 +117,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/joshg/OneDrive/Desktop/scg-protobuf-test/scg-protobuf-test/cpp/build/CMakeFiles/4.2.3/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/joshg/OneDrive/Desktop/prototest2/prototest/cpp/build/CMakeFiles/4.2.3/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "find-v1"
@@ -156,6 +157,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Microsoft/WindowsApps/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Muse Hub/lib/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
       - "C:/vcpkg/installed/x64-windows/Windows/System32/"
       - "C:/vcpkg/installed/x64-windows/Windows/"
@@ -172,6 +174,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Microsoft/WindowsApps/"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Muse Hub/lib/"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -188,6 +191,7 @@ events:
       - "C:/Users/joshg/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/joshg/AppData/Local/Muse Hub/lib/"
       - "C:/Users/joshg/.dotnet/tools/"
+      - "C:/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
@@ -237,6 +241,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/link.com"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/link.exe"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/link"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/link.com"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/link.exe"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/link"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link"
@@ -285,6 +292,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/link.com"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/link.exe"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/link"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/link.com"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/link.exe"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/link"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
     found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
     search_context:
@@ -310,6 +320,7 @@ events:
         - "C:\\Users\\joshg\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\joshg\\AppData\\Local\\Muse Hub\\lib"
         - "C:\\Users\\joshg\\.dotnet\\tools"
+        - "C:\\Users\\joshg\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
       CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-windows/debug;C:/vcpkg/installed/x64-windows"
   -
     kind: "find-v1"
@@ -349,6 +360,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Microsoft/WindowsApps/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Muse Hub/lib/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
       - "C:/vcpkg/installed/x64-windows/Windows/System32/"
       - "C:/vcpkg/installed/x64-windows/Windows/"
@@ -365,6 +377,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Microsoft/WindowsApps/"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Muse Hub/lib/"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -381,6 +394,7 @@ events:
       - "C:/Users/joshg/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/joshg/AppData/Local/Muse Hub/lib/"
       - "C:/Users/joshg/.dotnet/tools/"
+      - "C:/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
@@ -430,6 +444,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/lld-link.com"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/lld-link.exe"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/lld-link"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
@@ -478,6 +495,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/lld-link.com"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/lld-link.exe"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/lld-link"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
@@ -526,6 +546,9 @@ events:
       - "C:/Users/joshg/.dotnet/tools/lld-link.com"
       - "C:/Users/joshg/.dotnet/tools/lld-link.exe"
       - "C:/Users/joshg/.dotnet/tools/lld-link"
+      - "C:/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
     found: false
     search_context:
       CMAKE_PROGRAM_PATH:
@@ -550,6 +573,7 @@ events:
         - "C:\\Users\\joshg\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\joshg\\AppData\\Local\\Muse Hub\\lib"
         - "C:\\Users\\joshg\\.dotnet\\tools"
+        - "C:\\Users\\joshg\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
       CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-windows/debug;C:/vcpkg/installed/x64-windows"
   -
     kind: "find-v1"
@@ -587,6 +611,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Microsoft/WindowsApps/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Muse Hub/lib/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
       - "C:/vcpkg/installed/x64-windows/Windows/System32/"
       - "C:/vcpkg/installed/x64-windows/Windows/"
@@ -603,6 +628,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Microsoft/WindowsApps/"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Muse Hub/lib/"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -619,6 +645,7 @@ events:
       - "C:/Users/joshg/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/joshg/AppData/Local/Muse Hub/lib/"
       - "C:/Users/joshg/.dotnet/tools/"
+      - "C:/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
@@ -668,6 +695,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/link.com"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/link.exe"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/link"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/link.com"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/link.exe"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/link"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link"
@@ -716,6 +746,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/link.com"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/link.exe"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/link"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/link.com"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/link.exe"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/link"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
     found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
     search_context:
@@ -741,6 +774,7 @@ events:
         - "C:\\Users\\joshg\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\joshg\\AppData\\Local\\Muse Hub\\lib"
         - "C:\\Users\\joshg\\.dotnet\\tools"
+        - "C:\\Users\\joshg\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
       CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-windows/debug;C:/vcpkg/installed/x64-windows"
   -
     kind: "find-v1"
@@ -778,6 +812,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Microsoft/WindowsApps/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Muse Hub/lib/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
       - "C:/vcpkg/installed/x64-windows/Windows/System32/"
       - "C:/vcpkg/installed/x64-windows/Windows/"
@@ -794,6 +829,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Microsoft/WindowsApps/"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Muse Hub/lib/"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -810,6 +846,7 @@ events:
       - "C:/Users/joshg/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/joshg/AppData/Local/Muse Hub/lib/"
       - "C:/Users/joshg/.dotnet/tools/"
+      - "C:/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.com"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.exe"
@@ -859,6 +896,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/mt.com"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/mt.exe"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/mt"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/mt"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.com"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.exe"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt"
@@ -907,6 +947,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/mt.com"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/mt.exe"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/mt"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/mt"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.com"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.exe"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt"
@@ -955,6 +998,9 @@ events:
       - "C:/Users/joshg/.dotnet/tools/mt.com"
       - "C:/Users/joshg/.dotnet/tools/mt.exe"
       - "C:/Users/joshg/.dotnet/tools/mt"
+      - "C:/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/mt"
     found: false
     search_context:
       CMAKE_PROGRAM_PATH:
@@ -979,6 +1025,7 @@ events:
         - "C:\\Users\\joshg\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\joshg\\AppData\\Local\\Muse Hub\\lib"
         - "C:\\Users\\joshg\\.dotnet\\tools"
+        - "C:\\Users\\joshg\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
       CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-windows/debug;C:/vcpkg/installed/x64-windows"
   -
     kind: "find-v1"
@@ -1016,6 +1063,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Microsoft/WindowsApps/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Muse Hub/lib/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
       - "C:/vcpkg/installed/x64-windows/Windows/System32/"
       - "C:/vcpkg/installed/x64-windows/Windows/"
@@ -1032,6 +1080,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Microsoft/WindowsApps/"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Muse Hub/lib/"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -1048,6 +1097,7 @@ events:
       - "C:/Users/joshg/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/joshg/AppData/Local/Muse Hub/lib/"
       - "C:/Users/joshg/.dotnet/tools/"
+      - "C:/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.com"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.exe"
@@ -1097,6 +1147,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/lib.com"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/lib.exe"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/lib"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/lib.com"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/lib.exe"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/lib"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.com"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.exe"
       - "C:/vcpkg/installed/x64-windows/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib"
@@ -1145,6 +1198,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/lib.com"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/lib.exe"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/lib"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/lib.com"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/lib.exe"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/lib"
       - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.com"
     found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.exe"
     search_context:
@@ -1170,6 +1226,7 @@ events:
         - "C:\\Users\\joshg\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\joshg\\AppData\\Local\\Muse Hub\\lib"
         - "C:\\Users\\joshg\\.dotnet\\tools"
+        - "C:\\Users\\joshg\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
       CMAKE_FIND_ROOT_PATH: "C:/vcpkg/installed/x64-windows/debug;C:/vcpkg/installed/x64-windows"
   -
     kind: "find-v1"
@@ -1216,6 +1273,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Microsoft/WindowsApps/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Muse Hub/lib/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/bin/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/sbin/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/"
@@ -1250,6 +1308,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Microsoft/WindowsApps/"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Muse Hub/lib/"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/vcpkg/installed/x64-windows/Program Files/bin/"
       - "C:/vcpkg/installed/x64-windows/Program Files/sbin/"
       - "C:/vcpkg/installed/x64-windows/Program Files/"
@@ -1284,6 +1343,7 @@ events:
       - "C:/Users/joshg/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/joshg/AppData/Local/Muse Hub/lib/"
       - "C:/Users/joshg/.dotnet/tools/"
+      - "C:/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -1363,6 +1423,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/rc.com"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/rc.exe"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/rc"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/rc"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/bin/rc.com"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/bin/rc.exe"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/bin/rc"
@@ -1465,6 +1528,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/rc.com"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/rc.exe"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/rc"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/rc"
       - "C:/vcpkg/installed/x64-windows/Program Files/bin/rc.com"
       - "C:/vcpkg/installed/x64-windows/Program Files/bin/rc.exe"
       - "C:/vcpkg/installed/x64-windows/Program Files/bin/rc"
@@ -1567,6 +1633,9 @@ events:
       - "C:/Users/joshg/.dotnet/tools/rc.com"
       - "C:/Users/joshg/.dotnet/tools/rc.exe"
       - "C:/Users/joshg/.dotnet/tools/rc"
+      - "C:/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/rc"
       - "C:/Program Files/bin/rc.com"
       - "C:/Program Files/bin/rc.exe"
       - "C:/Program Files/bin/rc"
@@ -1627,6 +1696,7 @@ events:
         - "C:\\Users\\joshg\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\joshg\\AppData\\Local\\Muse Hub\\lib"
         - "C:\\Users\\joshg\\.dotnet\\tools"
+        - "C:\\Users\\joshg\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/ScgProtoTestCpp"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -1643,8 +1713,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/joshg/OneDrive/Desktop/scg-protobuf-test/scg-protobuf-test/cpp/build/CMakeFiles/CMakeScratch/TryCompile-ludmxi"
-      binary: "C:/Users/joshg/OneDrive/Desktop/scg-protobuf-test/scg-protobuf-test/cpp/build/CMakeFiles/CMakeScratch/TryCompile-ludmxi"
+      source: "C:/Users/joshg/OneDrive/Desktop/prototest2/prototest/cpp/build/CMakeFiles/CMakeScratch/TryCompile-9hbk88"
+      binary: "C:/Users/joshg/OneDrive/Desktop/prototest2/prototest/cpp/build/CMakeFiles/CMakeScratch/TryCompile-9hbk88"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1658,39 +1728,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/joshg/OneDrive/Desktop/scg-protobuf-test/scg-protobuf-test/cpp/build/CMakeFiles/CMakeScratch/TryCompile-ludmxi'
+        Change Dir: 'C:/Users/joshg/OneDrive/Desktop/prototest2/prototest/cpp/build/CMakeFiles/CMakeScratch/TryCompile-9hbk88'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e9eac.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b1d98.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.4.0+6e61e96ac for .NET Framework
-        Build started 3/16/2026 12:36:45 AM.
+        Build started 3/16/2026 12:45:53 PM.
         
-        Project "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ludmxi\\cmTC_e9eac.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9hbk88\\cmTC_b1d98.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ludmxi\\Debug\\".
-          Creating directory "cmTC_e9eac.dir\\Debug\\cmTC_e9eac.tlog\\".
+          Creating directory "C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9hbk88\\Debug\\".
+          Creating directory "cmTC_b1d98.dir\\Debug\\cmTC_b1d98.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_e9eac.dir\\Debug\\cmTC_e9eac.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_e9eac.dir\\Debug\\cmTC_e9eac.tlog\\unsuccessfulbuild".
+          Creating "cmTC_b1d98.dir\\Debug\\cmTC_b1d98.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b1d98.dir\\Debug\\cmTC_b1d98.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_e9eac.dir\\Debug\\\\" /Fd"cmTC_e9eac.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_b1d98.dir\\Debug\\\\" /Fd"cmTC_b1d98.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35726 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_e9eac.dir\\Debug\\\\" /Fd"cmTC_e9eac.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_b1d98.dir\\Debug\\\\" /Fd"cmTC_b1d98.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ludmxi\\Debug\\cmTC_e9eac.exe" /INCREMENTAL /ILK:"cmTC_e9eac.dir\\Debug\\cmTC_e9eac.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/joshg/OneDrive/Desktop/scg-protobuf-test/scg-protobuf-test/cpp/build/CMakeFiles/CMakeScratch/TryCompile-ludmxi/Debug/cmTC_e9eac.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/joshg/OneDrive/Desktop/scg-protobuf-test/scg-protobuf-test/cpp/build/CMakeFiles/CMakeScratch/TryCompile-ludmxi/Debug/cmTC_e9eac.lib" /MACHINE:X64  /machine:x64 cmTC_e9eac.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_e9eac.vcxproj -> C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ludmxi\\Debug\\cmTC_e9eac.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9hbk88\\Debug\\cmTC_b1d98.exe" /INCREMENTAL /ILK:"cmTC_b1d98.dir\\Debug\\cmTC_b1d98.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/joshg/OneDrive/Desktop/prototest2/prototest/cpp/build/CMakeFiles/CMakeScratch/TryCompile-9hbk88/Debug/cmTC_b1d98.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/joshg/OneDrive/Desktop/prototest2/prototest/cpp/build/CMakeFiles/CMakeScratch/TryCompile-9hbk88/Debug/cmTC_b1d98.lib" /MACHINE:X64  /machine:x64 cmTC_b1d98.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_b1d98.vcxproj -> C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9hbk88\\Debug\\cmTC_b1d98.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_e9eac.dir\\Debug\\cmTC_e9eac.tlog\\unsuccessfulbuild".
-          Touching "cmTC_e9eac.dir\\Debug\\cmTC_e9eac.tlog\\cmTC_e9eac.lastbuildstate".
-        Done Building Project "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ludmxi\\cmTC_e9eac.vcxproj" (default targets).
+          Deleting file "cmTC_b1d98.dir\\Debug\\cmTC_b1d98.tlog\\unsuccessfulbuild".
+          Touching "cmTC_b1d98.dir\\Debug\\cmTC_b1d98.tlog\\cmTC_b1d98.lastbuildstate".
+        Done Building Project "C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9hbk88\\cmTC_b1d98.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.40
+        Time Elapsed 00:00:00.36
         
       exitCode: 0
   -
@@ -1773,6 +1843,7 @@ events:
         - "C:\\Users\\joshg\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\joshg\\AppData\\Local\\Muse Hub\\lib"
         - "C:\\Users\\joshg\\.dotnet\\tools"
+        - "C:\\Users\\joshg\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/ScgProtoTestCpp"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -1799,8 +1870,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/joshg/OneDrive/Desktop/scg-protobuf-test/scg-protobuf-test/cpp/build/CMakeFiles/CMakeScratch/TryCompile-71ka3c"
-      binary: "C:/Users/joshg/OneDrive/Desktop/scg-protobuf-test/scg-protobuf-test/cpp/build/CMakeFiles/CMakeScratch/TryCompile-71ka3c"
+      source: "C:/Users/joshg/OneDrive/Desktop/prototest2/prototest/cpp/build/CMakeFiles/CMakeScratch/TryCompile-vjkn4b"
+      binary: "C:/Users/joshg/OneDrive/Desktop/prototest2/prototest/cpp/build/CMakeFiles/CMakeScratch/TryCompile-vjkn4b"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1813,39 +1884,39 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/joshg/OneDrive/Desktop/scg-protobuf-test/scg-protobuf-test/cpp/build/CMakeFiles/CMakeScratch/TryCompile-71ka3c'
+        Change Dir: 'C:/Users/joshg/OneDrive/Desktop/prototest2/prototest/cpp/build/CMakeFiles/CMakeScratch/TryCompile-vjkn4b'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_54f0a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7fea5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.4.0+6e61e96ac for .NET Framework
-        Build started 3/16/2026 12:36:46 AM.
+        Build started 3/16/2026 12:45:53 PM.
         
-        Project "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-71ka3c\\cmTC_54f0a.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vjkn4b\\cmTC_7fea5.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-71ka3c\\Debug\\".
-          Creating directory "cmTC_54f0a.dir\\Debug\\cmTC_54f0a.tlog\\".
+          Creating directory "C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vjkn4b\\Debug\\".
+          Creating directory "cmTC_7fea5.dir\\Debug\\cmTC_7fea5.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_54f0a.dir\\Debug\\cmTC_54f0a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_54f0a.dir\\Debug\\cmTC_54f0a.tlog\\unsuccessfulbuild".
+          Creating "cmTC_7fea5.dir\\Debug\\cmTC_7fea5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7fea5.dir\\Debug\\cmTC_7fea5.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_54f0a.dir\\Debug\\\\" /Fd"cmTC_54f0a.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-71ka3c\\src.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_7fea5.dir\\Debug\\\\" /Fd"cmTC_7fea5.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vjkn4b\\src.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35726 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_54f0a.dir\\Debug\\\\" /Fd"cmTC_54f0a.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-71ka3c\\src.cxx"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_7fea5.dir\\Debug\\\\" /Fd"cmTC_7fea5.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vjkn4b\\src.cxx"
           src.cxx
-        C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-71ka3c\\src.cxx(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-71ka3c\\cmTC_54f0a.vcxproj]
-        Done Building Project "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-71ka3c\\cmTC_54f0a.vcxproj" (default targets) -- FAILED.
+        C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vjkn4b\\src.cxx(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vjkn4b\\cmTC_7fea5.vcxproj]
+        Done Building Project "C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vjkn4b\\cmTC_7fea5.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-71ka3c\\cmTC_54f0a.vcxproj" (default target) (1) ->
+        "C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vjkn4b\\cmTC_7fea5.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-71ka3c\\src.cxx(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-71ka3c\\cmTC_54f0a.vcxproj]
+          C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vjkn4b\\src.cxx(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vjkn4b\\cmTC_7fea5.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.30
+        Time Elapsed 00:00:00.20
         
       exitCode: 1
   -
@@ -1866,8 +1937,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/joshg/OneDrive/Desktop/scg-protobuf-test/scg-protobuf-test/cpp/build/CMakeFiles/CMakeScratch/TryCompile-jbi9qn"
-      binary: "C:/Users/joshg/OneDrive/Desktop/scg-protobuf-test/scg-protobuf-test/cpp/build/CMakeFiles/CMakeScratch/TryCompile-jbi9qn"
+      source: "C:/Users/joshg/OneDrive/Desktop/prototest2/prototest/cpp/build/CMakeFiles/CMakeScratch/TryCompile-k5yug4"
+      binary: "C:/Users/joshg/OneDrive/Desktop/prototest2/prototest/cpp/build/CMakeFiles/CMakeScratch/TryCompile-k5yug4"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1880,41 +1951,41 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/joshg/OneDrive/Desktop/scg-protobuf-test/scg-protobuf-test/cpp/build/CMakeFiles/CMakeScratch/TryCompile-jbi9qn'
+        Change Dir: 'C:/Users/joshg/OneDrive/Desktop/prototest2/prototest/cpp/build/CMakeFiles/CMakeScratch/TryCompile-k5yug4'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_35063.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f89b4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.4.0+6e61e96ac for .NET Framework
-        Build started 3/16/2026 12:36:46 AM.
+        Build started 3/16/2026 12:45:54 PM.
         
-        Project "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jbi9qn\\cmTC_35063.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k5yug4\\cmTC_f89b4.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jbi9qn\\Debug\\".
-          Creating directory "cmTC_35063.dir\\Debug\\cmTC_35063.tlog\\".
+          Creating directory "C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k5yug4\\Debug\\".
+          Creating directory "cmTC_f89b4.dir\\Debug\\cmTC_f89b4.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_35063.dir\\Debug\\cmTC_35063.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_35063.dir\\Debug\\cmTC_35063.tlog\\unsuccessfulbuild".
+          Creating "cmTC_f89b4.dir\\Debug\\cmTC_f89b4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f89b4.dir\\Debug\\cmTC_f89b4.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_35063.dir\\Debug\\\\" /Fd"cmTC_35063.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jbi9qn\\CheckFunctionExists.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_f89b4.dir\\Debug\\\\" /Fd"cmTC_f89b4.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k5yug4\\CheckFunctionExists.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35726 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_35063.dir\\Debug\\\\" /Fd"cmTC_35063.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jbi9qn\\CheckFunctionExists.cxx"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_f89b4.dir\\Debug\\\\" /Fd"cmTC_f89b4.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k5yug4\\CheckFunctionExists.cxx"
           CheckFunctionExists.cxx
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jbi9qn\\Debug\\cmTC_35063.exe" /INCREMENTAL /ILK:"cmTC_35063.dir\\Debug\\cmTC_35063.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/joshg/OneDrive/Desktop/scg-protobuf-test/scg-protobuf-test/cpp/build/CMakeFiles/CMakeScratch/TryCompile-jbi9qn/Debug/cmTC_35063.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/joshg/OneDrive/Desktop/scg-protobuf-test/scg-protobuf-test/cpp/build/CMakeFiles/CMakeScratch/TryCompile-jbi9qn/Debug/cmTC_35063.lib" /MACHINE:X64  /machine:x64 cmTC_35063.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jbi9qn\\cmTC_35063.vcxproj]
-        Done Building Project "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jbi9qn\\cmTC_35063.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k5yug4\\Debug\\cmTC_f89b4.exe" /INCREMENTAL /ILK:"cmTC_f89b4.dir\\Debug\\cmTC_f89b4.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/joshg/OneDrive/Desktop/prototest2/prototest/cpp/build/CMakeFiles/CMakeScratch/TryCompile-k5yug4/Debug/cmTC_f89b4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/joshg/OneDrive/Desktop/prototest2/prototest/cpp/build/CMakeFiles/CMakeScratch/TryCompile-k5yug4/Debug/cmTC_f89b4.lib" /MACHINE:X64  /machine:x64 cmTC_f89b4.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k5yug4\\cmTC_f89b4.vcxproj]
+        Done Building Project "C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k5yug4\\cmTC_f89b4.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jbi9qn\\cmTC_35063.vcxproj" (default target) (1) ->
+        "C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k5yug4\\cmTC_f89b4.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jbi9qn\\cmTC_35063.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k5yug4\\cmTC_f89b4.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.31
+        Time Elapsed 00:00:00.25
         
       exitCode: 1
   -
@@ -1935,8 +2006,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/joshg/OneDrive/Desktop/scg-protobuf-test/scg-protobuf-test/cpp/build/CMakeFiles/CMakeScratch/TryCompile-3bw62v"
-      binary: "C:/Users/joshg/OneDrive/Desktop/scg-protobuf-test/scg-protobuf-test/cpp/build/CMakeFiles/CMakeScratch/TryCompile-3bw62v"
+      source: "C:/Users/joshg/OneDrive/Desktop/prototest2/prototest/cpp/build/CMakeFiles/CMakeScratch/TryCompile-u3ukf1"
+      binary: "C:/Users/joshg/OneDrive/Desktop/prototest2/prototest/cpp/build/CMakeFiles/CMakeScratch/TryCompile-u3ukf1"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1949,41 +2020,41 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/joshg/OneDrive/Desktop/scg-protobuf-test/scg-protobuf-test/cpp/build/CMakeFiles/CMakeScratch/TryCompile-3bw62v'
+        Change Dir: 'C:/Users/joshg/OneDrive/Desktop/prototest2/prototest/cpp/build/CMakeFiles/CMakeScratch/TryCompile-u3ukf1'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_23d99.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8f483.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.4.0+6e61e96ac for .NET Framework
-        Build started 3/16/2026 12:36:47 AM.
+        Build started 3/16/2026 12:45:54 PM.
         
-        Project "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3bw62v\\cmTC_23d99.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u3ukf1\\cmTC_8f483.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3bw62v\\Debug\\".
-          Creating directory "cmTC_23d99.dir\\Debug\\cmTC_23d99.tlog\\".
+          Creating directory "C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u3ukf1\\Debug\\".
+          Creating directory "cmTC_8f483.dir\\Debug\\cmTC_8f483.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_23d99.dir\\Debug\\cmTC_23d99.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_23d99.dir\\Debug\\cmTC_23d99.tlog\\unsuccessfulbuild".
+          Creating "cmTC_8f483.dir\\Debug\\cmTC_8f483.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8f483.dir\\Debug\\cmTC_8f483.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_23d99.dir\\Debug\\\\" /Fd"cmTC_23d99.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3bw62v\\CheckFunctionExists.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_8f483.dir\\Debug\\\\" /Fd"cmTC_8f483.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u3ukf1\\CheckFunctionExists.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35726 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_23d99.dir\\Debug\\\\" /Fd"cmTC_23d99.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3bw62v\\CheckFunctionExists.cxx"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_8f483.dir\\Debug\\\\" /Fd"cmTC_8f483.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u3ukf1\\CheckFunctionExists.cxx"
           CheckFunctionExists.cxx
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3bw62v\\Debug\\cmTC_23d99.exe" /INCREMENTAL /ILK:"cmTC_23d99.dir\\Debug\\cmTC_23d99.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/joshg/OneDrive/Desktop/scg-protobuf-test/scg-protobuf-test/cpp/build/CMakeFiles/CMakeScratch/TryCompile-3bw62v/Debug/cmTC_23d99.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/joshg/OneDrive/Desktop/scg-protobuf-test/scg-protobuf-test/cpp/build/CMakeFiles/CMakeScratch/TryCompile-3bw62v/Debug/cmTC_23d99.lib" /MACHINE:X64  /machine:x64 cmTC_23d99.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3bw62v\\cmTC_23d99.vcxproj]
-        Done Building Project "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3bw62v\\cmTC_23d99.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u3ukf1\\Debug\\cmTC_8f483.exe" /INCREMENTAL /ILK:"cmTC_8f483.dir\\Debug\\cmTC_8f483.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/joshg/OneDrive/Desktop/prototest2/prototest/cpp/build/CMakeFiles/CMakeScratch/TryCompile-u3ukf1/Debug/cmTC_8f483.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/joshg/OneDrive/Desktop/prototest2/prototest/cpp/build/CMakeFiles/CMakeScratch/TryCompile-u3ukf1/Debug/cmTC_8f483.lib" /MACHINE:X64  /machine:x64 cmTC_8f483.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u3ukf1\\cmTC_8f483.vcxproj]
+        Done Building Project "C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u3ukf1\\cmTC_8f483.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3bw62v\\cmTC_23d99.vcxproj" (default target) (1) ->
+        "C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u3ukf1\\cmTC_8f483.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3bw62v\\cmTC_23d99.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u3ukf1\\cmTC_8f483.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.33
+        Time Elapsed 00:00:00.27
         
       exitCode: 1
   -
@@ -2073,6 +2144,7 @@ events:
         - "C:\\Users\\joshg\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\joshg\\AppData\\Local\\Muse Hub\\lib"
         - "C:\\Users\\joshg\\.dotnet\\tools"
+        - "C:\\Users\\joshg\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/ScgProtoTestCpp"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -2171,6 +2243,7 @@ events:
         - "C:\\Users\\joshg\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\joshg\\AppData\\Local\\Muse Hub\\lib"
         - "C:\\Users\\joshg\\.dotnet\\tools"
+        - "C:\\Users\\joshg\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/ScgProtoTestCpp"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -2267,6 +2340,7 @@ events:
         - "C:\\Users\\joshg\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\joshg\\AppData\\Local\\Muse Hub\\lib"
         - "C:\\Users\\joshg\\.dotnet\\tools"
+        - "C:\\Users\\joshg\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/ScgProtoTestCpp"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -2316,6 +2390,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Microsoft/WindowsApps/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Muse Hub/lib/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/bin/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/sbin/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/"
@@ -2350,6 +2425,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Microsoft/WindowsApps/"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Muse Hub/lib/"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/vcpkg/installed/x64-windows/Program Files/bin/"
       - "C:/vcpkg/installed/x64-windows/Program Files/sbin/"
       - "C:/vcpkg/installed/x64-windows/Program Files/"
@@ -2384,6 +2460,7 @@ events:
       - "C:/Users/joshg/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/joshg/AppData/Local/Muse Hub/lib/"
       - "C:/Users/joshg/.dotnet/tools/"
+      - "C:/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -2463,6 +2540,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/pwsh.com"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/pwsh.exe"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/pwsh"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/pwsh.com"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/pwsh.exe"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/pwsh"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/bin/pwsh.com"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/bin/pwsh.exe"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/bin/pwsh"
@@ -2565,6 +2645,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/pwsh.com"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/pwsh.exe"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/pwsh"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/pwsh.com"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/pwsh.exe"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/pwsh"
       - "C:/vcpkg/installed/x64-windows/Program Files/bin/pwsh.com"
       - "C:/vcpkg/installed/x64-windows/Program Files/bin/pwsh.exe"
       - "C:/vcpkg/installed/x64-windows/Program Files/bin/pwsh"
@@ -2667,6 +2750,9 @@ events:
       - "C:/Users/joshg/.dotnet/tools/pwsh.com"
       - "C:/Users/joshg/.dotnet/tools/pwsh.exe"
       - "C:/Users/joshg/.dotnet/tools/pwsh"
+      - "C:/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/pwsh.com"
+      - "C:/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/pwsh.exe"
+      - "C:/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/pwsh"
       - "C:/Program Files/bin/pwsh.com"
       - "C:/Program Files/bin/pwsh.exe"
       - "C:/Program Files/bin/pwsh"
@@ -2727,6 +2813,7 @@ events:
         - "C:\\Users\\joshg\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\joshg\\AppData\\Local\\Muse Hub\\lib"
         - "C:\\Users\\joshg\\.dotnet\\tools"
+        - "C:\\Users\\joshg\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/ScgProtoTestCpp"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -2776,6 +2863,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Microsoft/WindowsApps/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Muse Hub/lib/"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/bin/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/sbin/"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/"
@@ -2810,6 +2898,7 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Microsoft/WindowsApps/"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Muse Hub/lib/"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/vcpkg/installed/x64-windows/Program Files/bin/"
       - "C:/vcpkg/installed/x64-windows/Program Files/sbin/"
       - "C:/vcpkg/installed/x64-windows/Program Files/"
@@ -2844,6 +2933,7 @@ events:
       - "C:/Users/joshg/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/joshg/AppData/Local/Muse Hub/lib/"
       - "C:/Users/joshg/.dotnet/tools/"
+      - "C:/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -2923,6 +3013,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/powershell.com"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/powershell.exe"
       - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/.dotnet/tools/powershell"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/powershell.com"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/powershell.exe"
+      - "C:/vcpkg/installed/x64-windows/debug/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/powershell"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/bin/powershell.com"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/bin/powershell.exe"
       - "C:/vcpkg/installed/x64-windows/debug/Program Files/bin/powershell"
@@ -3025,6 +3118,9 @@ events:
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/powershell.com"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/powershell.exe"
       - "C:/vcpkg/installed/x64-windows/Users/joshg/.dotnet/tools/powershell"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/powershell.com"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/powershell.exe"
+      - "C:/vcpkg/installed/x64-windows/Users/joshg/AppData/Local/Programs/Microsoft VS Code/bin/powershell"
       - "C:/vcpkg/installed/x64-windows/Program Files/bin/powershell.com"
       - "C:/vcpkg/installed/x64-windows/Program Files/bin/powershell.exe"
       - "C:/vcpkg/installed/x64-windows/Program Files/bin/powershell"
@@ -3119,6 +3215,7 @@ events:
         - "C:\\Users\\joshg\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\joshg\\AppData\\Local\\Muse Hub\\lib"
         - "C:\\Users\\joshg\\.dotnet\\tools"
+        - "C:\\Users\\joshg\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/ScgProtoTestCpp"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"

@@ -53,11 +53,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\csharp\\ScgProtoTest\\ScgProtoTest.csproj",
+      "projectUniqueName": "C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\csharp\\ScgProtoTest.csproj",
       "projectName": "ScgProtoTest",
-      "projectPath": "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\csharp\\ScgProtoTest\\ScgProtoTest.csproj",
+      "projectPath": "C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\csharp\\ScgProtoTest.csproj",
       "packagesPath": "C:\\Users\\joshg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joshg\\OneDrive\\Desktop\\scg-protobuf-test\\scg-protobuf-test\\csharp\\ScgProtoTest\\obj\\",
+      "outputPath": "C:\\Users\\joshg\\OneDrive\\Desktop\\prototest2\\prototest\\csharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\joshg\\AppData\\Roaming\\NuGet\\NuGet.Config"

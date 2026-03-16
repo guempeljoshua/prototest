@@ -21,12 +21,12 @@
 
   <!-- Include the generated protobuf C# file -->
   <ItemGroup>
-    <Compile Include="..\..\generated\csharp\ScgTest.cs" />
+    <Compile Include="..\generated\csharp\ScgTest.cs" />
   </ItemGroup>
 
   <!-- Copy the test binary to the output directory so the default path works -->
   <ItemGroup>
-    <None Update="..\..\binary\scg_test.pb">
+    <None Update="..\binary\scg_test.pb">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Link>scg_test.pb</Link>
     </None>
